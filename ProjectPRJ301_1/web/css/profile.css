@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 17, 2023, 12:46:28 AM
+    Author     : Admin
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Khu vực chứa biểu mẫu và nội dung */
+#logreg-forms {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Tiêu đề trang profile */
+.form-signup h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Khung nhập liệu */
+.form-control {
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Khung nhập liệu chỉ đọc */
+.form-control[readonly] {
+    background-color: #eee;
+}
+
+/* Đường link chuyển hướng */
+.cta-button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Đường link quay lại */
+#cancel_signup {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Định dạng các lỗi */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Chỉnh độ rộng của trang web */
+@media (max-width: 768px) {
+    #logreg-forms {
+        width: 90%;
+    }
+}
+
+
+.eye-icon {
+    font-size: 16px; /* Kích thước của biểu tượng */
+    color: #007bff; /* Màu sắc của biểu tượng */
+    cursor: pointer; /* Đổi hình con trỏ khi di chuột qua biểu tượng */
+    transition: color 0.3s; /* Hiệu ứng chuyển đổi màu sắc */
+}
+
+.eye-icon:hover {
+    color: #ff9900; 
+}
+
+
